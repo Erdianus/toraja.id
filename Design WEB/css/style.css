@@ -1,0 +1,72 @@
+body{
+    background-color: whitesmoke;
+}
+
+.box{
+    margin: 30px;
+    padding: 25px;
+}
+
+.container{
+    background-color: cornflowerblue;
+    color: white;
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+/*.....HEADER.....*/
+.logo{
+    float: left;
+    padding: 30px;
+}
+.search{
+    float: right;
+    padding: 30px;
+}
+.nav{
+    clear: both;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.nav ul li a:hover{
+    background-color: tomato;
+}
+.drop{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+/*.....FOOTER.....*/
+.copyright{
+    margin-top: 20px;
+    background-color:wheat;
+    color: black;
+    height: 120px;
+    text-align: center;
+}
+
+.copyright p{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
